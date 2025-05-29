@@ -1,12 +1,15 @@
 // arguments
-let height = 25;
+let args = process.argv.length -2;
 
-if (height === 33) {
+if(args === 3) {
     console.log('No argument found');
-} else if (height === 25) {
+}
+else if(args === 6) {
     console.log('Argument found');
-} else {
+}
+else {
     console.log('Arguments found');
 }
+
 
 
