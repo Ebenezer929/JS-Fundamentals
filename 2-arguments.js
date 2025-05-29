@@ -1,15 +1,11 @@
 // arguments
-let args = process.argv.length -2;
-
-if(args === 3) {
+let k = 16;
+if (k == 18) {
     console.log('No argument found');
 }
-else if(args === 6) {
+else if (k <= 16) {
     console.log('Argument found');
 }
 else {
     console.log('Arguments found');
 }
-
-
-
