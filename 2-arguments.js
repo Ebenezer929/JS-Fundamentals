@@ -1,9 +1,10 @@
-// arguments
-let k = 16;
-if (k == 18) {
-    console.log('No argument found');
-}
-else if (k <= 16) {
+// Argument 2
+const args = process.argv.slice(2)
+
+if (args.lenght === 0) {
+    console.log('No arguments');
+} 
+else if (args.lenght === 1) {
     console.log('Argument found');
 }
 else {
