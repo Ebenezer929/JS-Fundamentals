@@ -1,12 +1,9 @@
-// Argument 3
-const args = process.argv.slice(2)
+// 3 argument without using length
 
-if (args.lenght === 0) {
-    console.log('No arguments');
-} 
-else if (args.lenght === 1) {
-    console.log('Argument found');
-}
-else {
-    console.log('Arguments found');
+const argument = process.argv[2]; 
+
+if (argument) {
+  console.log(argument); 
+} else {
+  console.log("No argument"); 
 }
